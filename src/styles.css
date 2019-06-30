@@ -1,0 +1,153 @@
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url("src/img/image_from_ios.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("src/img/image_from_ios.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-text-box p {
+  font-weight: 300;
+}
+
+.container-testers,
+.container-conclusion {
+  margin-top: 50px;
+  padding: 20px 0 20px;
+  /* background-color: rgba(224, 224, 224, 0.096); */
+}
+
+.icon {
+  width: 80px;
+}
+
+.row.icon-heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-title h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.section-title p {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.pieGraphsRow {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+}
+
+.container-graph {
+  padding-left: 20em;
+  padding-right: 20em;
+  margin-bottom: 40px;
+}
+
+.team-member-image {
+  width: 225px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+}
+
+.team-member {
+  padding: 10px;
+}
+
+#key {
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.input-color {
+  position: relative;
+}
+.input-color input {
+  padding-left: 20px;
+}
+.input-color .color-box {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #ccc;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.screenshot-img {
+  width: 700px;
+  height: 700px;
+  margin-left: 100px;
+  border-color: #adadad;
+  border-width: 2px;
+}
+
+.flex-pie-ss {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grey-bg {
+  background-color: #dbdcdd;
+}
+
+footer {
+  background-color: #333333;
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CCAG Presentation</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/img/image_from_ios.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="row">
+          <!-- <img src="" alt="" class="logo" /> -->
+          <ul class="main-nav">
+            <!--
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+            -->
+          </ul>
+        </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>Christchurch Art Gallery</h1>
+        <p>Insights and Data Visualization</p>
+      </div>
+    </header>
+
+    <section class="container-introduction section-title">
+      <div class="row section-title icon-heading">
+        <img
+          src="src/img/multimple_solutions.png"
+          alt="Puzzle Pieces"
+          class="icon"
+        />
+
+        <h2>Introduction</h2>
+        <p>
+          Christchurch Art Gallery have teamed up with Yoobee to gain insights
+          on their new proposed website designed by Sons & Co. We, the Yoobee
+          students, have gone out and done research and public testing of the
+          website prototype and have collated useful information for
+          Christchurch Art Gallery & Sons & Co.
+        </p>
+      </div>
+    </section>
+
+    <section class="container-team section-title">
+      <div class="row section-title icon-heading">
+        <img
+          src="src/img/3d_group_team.png"
+          alt="Group of people"
+          class="icon"
+        />
+      </div>
+      <h2>Our Team</h2>
+      <div class="team">
+        <div class="team-member">
+          <img class="team-member-image" src="src/img/tj.png" / />
+          <p class="member-text">TJ Lee</p>
+        </div>
+
+        <div class="team-member">
+          <img class="team-member-image" src="src/img/jack.png" / />
+          <p class="member-text">Jack Kilmartin</p>
+        </div>
+
+        <div class="team-member">
+          <img class="team-member-image" src="src/img/matthew.png" / />
+          <p class="member-text">Matthew Kennett-Ny</p>
+        </div>
+
+        <div class="team-member">
+          <img class="team-member-image" src="src/img/jeremy.png" / />
+          <p class="member-text">Jeremy Sim</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-difficulty">
+      <div class="row section-title icon-heading">
+        <img src="src/img/3d_group.png" alt="A group of people" class="icon" />
+        <h2>Sample Sizes & Age Groups</h2>
+        <p class="blurb">
+          Below is a graph showing the amount of users that participated in user
+          testing of the new Christchurch Art Gallery website.
+        </p>
+      </div>
+
+      <div class="container-graph">
+        <canvas class="bar" id="CCAG-jack"></canvas>
+        <h4>Insights</h4>
+        <p>
+          The graph above shows the amount of participants that were tested.
+          Almost 50% of respondents were between the ages of 18-25. While groups
+          between the ages of 26-41+ came to 25%.
+        </p>
+      </div>
+    </section>
+
+    <section class="container-testers">
+      <div class="row section-title icon-heading">
+        <img
+          src="src/img/stats_pie_chart.png"
+          alt="man looking at screens"
+          class="icon"
+        />
+        <h2>Success rates</h2>
+        <p class="blurb">Data of all users success and fail rates.</p>
+        <ul id="key">
+          <li>
+            <div class="input-color">
+              <input type="text" value="Success" />
+              <div class="color-box" style="background-color: #ffa552;"></div>
+              <!-- Replace "#FF850A" to change the color -->
+            </div>
+          </li>
+          <li>
+            <div class="input-color">
+              <input type="text" value="Struggle" />
+              <div class="color-box" style="background-color: #fcde9c;"></div>
+              <!-- Replace "navy" to change the color -->
+            </div>
+          </li>
+          <li>
+            <div class="input-color">
+              <input type="text" value="Fail" />
+              <div class="color-box" style="background-color: #cccccc;"></div>
+              <!-- Replace "navy" to change the color -->
+            </div>
+          </li>
+          <li>
+            <div class="input-color">
+              <input type="text" value="NA" />
+              <div class="color-box" style="background-color: #333;"></div>
+              <!-- Replace "navy" to change the color -->
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- <div class="row"> -->
+      <div>
+        <!-- <div class="col span-1-of-3 box"> -->
+        <div class="flex-pie-ss">
+          <div><canvas class="pie" id="CCAG-q2"></canvas></div>
+          <img class="screenshot-img" src="src/img/screenshot - q2.png" />
+        </div>
+        <div class="flex-pie-ss">
+          <div><canvas class="pie" id="CCAG-q3a"></canvas></div>
+          <img class="screenshot-img" src="src/img/screenshot - q3a.png" />
+        </div>
+        <div class="flex-pie-ss">
+          <div><canvas class="pie" id="CCAG-q3b"></canvas></div>
+          <img class="screenshot-img" src="src/img/screenshot - q3b.png" />
+        </div>
+        <!--
+          </div>
+
+          <div class="pieGraphsRow">
+        -->
+        <div class="flex-pie-ss">
+          <div><canvas class="pie" id="CCAG-q4"></canvas></div>
+          <img class="screenshot-img" src="src/img/screenshot - q4.png" />
+        </div>
+        <div class="flex-pie-ss">
+          <div><canvas class="pie" id="CCAG-q5"></canvas></div>
+          <img class="screenshot-img" src="src/img/screenshot - q5.png" />
+        </div>
+        <div class="flex-pie-ss">
+          <div><canvas class="pie" id="CCAG-q6"></canvas></div>
+          <img class="screenshot-img" src="src/img/screenshot - q6.png" />
+        </div>
+      </div>
+
+      <!--
+        <div class="row">
+        <div class="pieGraphsRow">
+          <div class="col span-1-of-3 box">
+          <div class="flex-pie-ss">
+            <div><canvas class="pie" id="CCAG-q2"></canvas></div>
+            <img class="screenshot-img" src="src/img/screenshot - q2.png" />
+          </div>
+          <div class="col span-1-of-3 box">
+            <div><canvas class="pie" id="CCAG-q3a"></canvas></div>
+          </div>
+          <div class="col span-1-of-3 box">
+            <div><canvas class="pie" id="CCAG-q3b"></canvas></div>
+          </div>
+
+            </div>
+
+            <div class="pieGraphsRow">
+
+          <div class="col span-1-of-3 box">
+            <div><canvas class="pie" id="CCAG-q4"></canvas></div>
+          </div>
+          <div class="col span-1-of-3 box">
+            <div><canvas class="pie" id="CCAG-q5"></canvas></div>
+          </div>
+          <div class="col span-1-of-3 box">
+            <div><canvas class="pie" id="CCAG-q6"></canvas></div>
+          </div>
+        </div>
+      -->
+    </section>
+
+    <!--
+      <div id="app"></div>
+      <canvas id="myChart"></canvas>
+      <div class="dialog"></div>
+    -->
+
+    <section class="container-success">
+      <div class="row section-title icon-heading">
+        <img
+          src="src/img/task.png"
+          alt="Board with tick on paper"
+          class="icon"
+        />
+        <h2>Comparing Data</h2>
+        <p class="blurb">
+          Two following graphs show two types of data. Data of all people who
+          have never visited the Christchurch Art Gallery website and who did.
+          Including the success, struggle and failure rates of people who've
+          never used it.
+        </p>
+      </div>
+
+      <!-- <div id="app"></div> -->
+      <div class="container-graph">
+        <canvas id="myChart"></canvas>
+        <div class="dialog"></div>
+        <h4>Insights</h4>
+        <p>
+          User were scored using a simple scoring system, where we would score
+          each individual user. 1 = "Successful", 2 = "Successful but
+          struggled", 3 = "Unsuccessful". Question 6 is the easiest one to
+          navigate with only a total score of 35 out of a possible 66.
+          Respondents affirm that question 6 was "Simple and easy" and
+          "Straightforward".
+        </p>
+      </div>
+
+      <div class="container-graph">
+        <canvas id="myChart2"></canvas>
+        <!-- <h4>Insights</h4> -->
+        <p></p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <h5>Copyright &copy; 2019 by 18CDWUX07. All rights reserved.</h5>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
+    <script src="src/chart.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>

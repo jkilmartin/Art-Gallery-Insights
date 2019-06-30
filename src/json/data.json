@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "slug": "Question 2",
+      "description": "This task involved visiting the Tony de Latour exhibition",
+      "insights": "We found ...."
+    },
+    {
+      "slug": "Question 3A",
+      "description": "This task involved finding what was avaliable to view on a certain date",
+      "insights": "We found ...."
+    },
+    {
+      "slug": "Question 3B",
+      "description": "This task involved finding out how to subscribe to the newsletter",
+      "insights": "We found ...."
+    },
+    {
+      "slug": "Question 4",
+      "description": "This task involved becoming a friend of the gallery",
+      "insights": "We found ...."
+    },
+    {
+      "slug": "Question 5",
+      "description": "This task involved finding what tours are on",
+      "insights": "We found ...."
+    },
+    {
+      "slug": "Question 6",
+      "description": " This task involved finding the school holiday class",
+      "insights": "We found ...."
+    }
+  ]
+}
